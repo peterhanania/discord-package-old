@@ -1,0 +1,23 @@
+{
+  "name": "discord-package",
+  "version": "1.0.0",
+  "description": "A more detailed discord data package explorer inspired by https://ddpe.androz2091.fr/.  Very easy to host, does not store any information about the user .",
+  "main": "src/backend/index.js",
+  "scripts": {
+    "start": "node src/backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterhanania/discord-package.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-package"
+  ],
+  "author": "Peter Hanania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterhanania/discord-package/issues"
+  },
+  "homepage": "https://github.com/peterhanania/discord-package#readme"
+}
