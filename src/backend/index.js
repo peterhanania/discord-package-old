@@ -436,10 +436,11 @@ app.use((error, req, res, next) => {
   res.status(500)
 })
 
-//start the website
-app.listen(process.env.port || 5000, null, null, () =>
-  console.log('✔️ Running the website | port: ' + process.env.port)
-)
+module.exports = app
+const serverless = require('serverless-http')
+module.exports.handler = serverless(app)
+
+
 /**
  * Parse a messages CSV into an object
  * @param input
