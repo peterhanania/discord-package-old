@@ -4,14 +4,16 @@
   "description": "A more detailed discord data package explorer inspired by https://ddpe.androz2091.fr/.  Very easy to host, does not store any information about the user .",
   "main": "src/backend/server.js",
   "scripts": {
-    "start": "node src/backend/server.js",
-    "build": "netlify-lambda build src/backend"
+    "start": "node src/backend/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterhanania/discord-package.git"
   },
-  "keywords": ["discord", "discord-package"],
+  "keywords": [
+    "discord",
+    "discord-package"
+  ],
   "author": "Peter Hanania",
   "license": "ISC",
   "bugs": {
@@ -28,11 +30,9 @@
     "express-minify-html-terser": "^1.0.2",
     "express-session": "^1.17.2",
     "multer": "^1.4.3",
-    "netlify-lambda": "^2.0.14",
     "node-fetch": "^2.6.1",
     "papaparse": "^5.3.1",
     "path": "^0.12.7",
-    "serverless-http": "^2.7.0",
     "url": "^0.11.0"
   }
 }
